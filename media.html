@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            background-color: brown;
+            font-size: 20px;
+           text-align: center;
+         
+        }
+        #item1{
+            background-color: brown;
+            font-size: 20px;
+           text-align: center;
+         
+        }
+        @media (max-width:300px){
+           .box{background-color: yellow;
+        font-size: 30px;
+        }}
+        @media(min-width:300px) and (max-width:600px){
+    #item1{ background-color: purple;
+        font-size: 40px;
+        width: 500px;
+        height: 400px;
+        /* float: left; */
+        
+        }}
+
+        @media (min-width:600px) and (max-width:800px){
+    .item{ background-color: blue;
+        font-size: 60px;
+        float: right;
+        width: 300px;
+    }}
+
+        .item{
+            background-color: yellow;
+            font-size: 20px;
+           text-align: center;
+         
+        }
+
+    </style>
+</head>
+<body>
+   <div class="box">this is 1 div </div>
+   <div id="item1" >this is 2 div </div>
+   <div class="item">this is 3 div </div>
+   <div class="box">this is 4 div </div>
+   <div class="box">this is 5 div </div>
+</body>
+</html>
